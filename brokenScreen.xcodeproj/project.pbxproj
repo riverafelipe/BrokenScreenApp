@@ -12,6 +12,12 @@
 		8044677A1CD65C1F004FF3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804467781CD65C1F004FF3E6 /* Main.storyboard */; };
 		8044677C1CD65C1F004FF3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8044677B1CD65C1F004FF3E6 /* Assets.xcassets */; };
 		8044677F1CD65C1F004FF3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8044677D1CD65C1F004FF3E6 /* LaunchScreen.storyboard */; };
+		AA06AD321CD66DDD008BF39F /* screen1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD2C1CD66DDD008BF39F /* screen1.jpg */; };
+		AA06AD331CD66DDD008BF39F /* screen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD2D1CD66DDD008BF39F /* screen2.jpg */; };
+		AA06AD341CD66DDD008BF39F /* screen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD2E1CD66DDD008BF39F /* screen3.jpg */; };
+		AA06AD351CD66DDD008BF39F /* screen4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD2F1CD66DDD008BF39F /* screen4.jpg */; };
+		AA06AD361CD66DDD008BF39F /* screen5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD301CD66DDD008BF39F /* screen5.jpg */; };
+		AA06AD371CD66DDD008BF39F /* screen6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA06AD311CD66DDD008BF39F /* screen6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		8044677B1CD65C1F004FF3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8044677E1CD65C1F004FF3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804467801CD65C1F004FF3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA06AD2C1CD66DDD008BF39F /* screen1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen1.jpg; sourceTree = "<group>"; };
+		AA06AD2D1CD66DDD008BF39F /* screen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen2.jpg; sourceTree = "<group>"; };
+		AA06AD2E1CD66DDD008BF39F /* screen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen3.jpg; sourceTree = "<group>"; };
+		AA06AD2F1CD66DDD008BF39F /* screen4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen4.jpg; sourceTree = "<group>"; };
+		AA06AD301CD66DDD008BF39F /* screen5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen5.jpg; sourceTree = "<group>"; };
+		AA06AD311CD66DDD008BF39F /* screen6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 				804467761CD65C1F004FF3E6 /* ViewController.swift */,
 				804467781CD65C1F004FF3E6 /* Main.storyboard */,
 				8044677B1CD65C1F004FF3E6 /* Assets.xcassets */,
+				AA06AD2C1CD66DDD008BF39F /* screen1.jpg */,
+				AA06AD2D1CD66DDD008BF39F /* screen2.jpg */,
+				AA06AD2E1CD66DDD008BF39F /* screen3.jpg */,
+				AA06AD2F1CD66DDD008BF39F /* screen4.jpg */,
+				AA06AD301CD66DDD008BF39F /* screen5.jpg */,
+				AA06AD311CD66DDD008BF39F /* screen6.jpg */,
 				8044677D1CD65C1F004FF3E6 /* LaunchScreen.storyboard */,
 				804467801CD65C1F004FF3E6 /* Info.plist */,
 			);
@@ -123,8 +141,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8044677F1CD65C1F004FF3E6 /* LaunchScreen.storyboard in Resources */,
+				AA06AD341CD66DDD008BF39F /* screen3.jpg in Resources */,
 				8044677C1CD65C1F004FF3E6 /* Assets.xcassets in Resources */,
+				AA06AD351CD66DDD008BF39F /* screen4.jpg in Resources */,
+				AA06AD331CD66DDD008BF39F /* screen2.jpg in Resources */,
 				8044677A1CD65C1F004FF3E6 /* Main.storyboard in Resources */,
+				AA06AD321CD66DDD008BF39F /* screen1.jpg in Resources */,
+				AA06AD371CD66DDD008BF39F /* screen6.jpg in Resources */,
+				AA06AD361CD66DDD008BF39F /* screen5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				804467851CD65C1F004FF3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
