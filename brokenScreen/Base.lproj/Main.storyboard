@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="brokenScreen" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="brokenScreen" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -57,6 +57,48 @@
                                     <navigationItem title="Broken Screens" id="LvN-qj-w8f"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D9-TK-rja" userLabel="Button1">
+                                <rect key="frame" x="0.0" y="213" width="125" height="228"/>
+                                <connections>
+                                    <action selector="buttonScreen1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5lx-Zi-lW5"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="Yu0-Eq-LXY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9B3-Th-P9P" userLabel="Button2">
+                                <rect key="frame" x="123" y="213" width="129" height="228"/>
+                                <connections>
+                                    <action selector="buttonScreen2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eIG-fE-U5S"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="0Rj-J4-fYE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvH-W7-Cj5" userLabel="Button3">
+                                <rect key="frame" x="250" y="213" width="125" height="228"/>
+                                <connections>
+                                    <action selector="buttonScreen3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZV-N5-mDb"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="ah8-ZO-hvv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Drt-ec-HMq" userLabel="Button4">
+                                <rect key="frame" x="0.0" y="439" width="125" height="227.5"/>
+                                <connections>
+                                    <action selector="buttonScreen4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZJ-Ws-yjV"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="GH7-Xm-2xK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teW-ce-lVN" userLabel="Button5">
+                                <rect key="frame" x="123" y="439" width="129" height="227"/>
+                                <connections>
+                                    <action selector="buttonScreen5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7St-km-6G6"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="bWh-rt-DqA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oh-ys-CkK" userLabel="Button6">
+                                <rect key="frame" x="250" y="439" width="125" height="228"/>
+                                <connections>
+                                    <action selector="buttonScreen6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yym-Jq-26m"/>
+                                    <segue destination="t13-j9-m7b" kind="show" animates="NO" id="Kou-4c-bLK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -66,8 +108,53 @@
             </objects>
             <point key="canvasLocation" x="244.5" y="337.5"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="MJ4-Lj-xaZ">
+            <objects>
+                <viewController id="t13-j9-m7b" customClass="SecondViewController" customModule="brokenScreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ret-Vk-bGh"/>
+                        <viewControllerLayoutGuide type="bottom" id="pwR-sP-njc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WvO-iU-OHK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QX7-MV-2Lo">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Broken Screens" id="gO1-Vm-HMY">
+                                        <barButtonItem key="leftBarButtonItem" image="backArrow.png" id="bfp-fX-6kc">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="F48-4W-mRJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-fY-1pw">
+                                <rect key="frame" x="-9" y="64" width="394" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bigImage" destination="ZbX-fY-1pw" id="C7B-mQ-Zuz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8g-cV-m94" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819.5" y="337.5"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="backArrow.png" width="64" height="64"/>
         <image name="screen1.jpg" width="1080" height="1920"/>
         <image name="screen2.jpg" width="1080" height="1920"/>
         <image name="screen3.jpg" width="1080" height="1920"/>
@@ -75,4 +162,7 @@
         <image name="screen5.jpg" width="1080" height="1920"/>
         <image name="screen6.jpg" width="1080" height="1920"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0Rj-J4-fYE"/>
+    </inferredMetricsTieBreakers>
 </document>
