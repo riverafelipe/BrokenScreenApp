@@ -134,6 +134,12 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="F48-4W-mRJ"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="qi5-Cq-dVu">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <action selector="saveToCameraRoll:" destination="t13-j9-m7b" id="Pc8-BU-pAC"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>

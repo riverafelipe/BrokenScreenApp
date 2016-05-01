@@ -67,6 +67,36 @@ class SecondViewController: UIViewController {
         
     }
     
+    
+    
+    //Save button to save image to camera roll
+    @IBAction func saveToCameraRoll(sender: AnyObject) {
+        
+            UIImageWriteToSavedPhotosAlbum(self.bigImage.image!, self, Selector("image:didFinishSavingWithError:contextInfo:"), nil)
+            
+    }
+    
+    
+    // Messege showing the image was saved into user's phone successfully
+    func image(image: UIImage, didFinishSavingWithError error: NSErrorPointer, contextInfo: UnsafePointer<()>) {
+        
+        dispatch_async(dispatch_get_main_queue(), {
+            
+            UIAlertView(title: "Success", message: "This image has been saved to your Camera Roll successfully", delegate: nil,
+                
+                cancelButtonTitle: "Close").show()
+        })
+        
+        
+        
+    }
+   
+
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
