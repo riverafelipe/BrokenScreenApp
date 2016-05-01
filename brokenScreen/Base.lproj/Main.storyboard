@@ -17,7 +17,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJw-c8-tAV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hzq-7K-dkT">
+                                <rect key="frame" x="0.0" y="213" width="125" height="228"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="N2V-C4-4aB">
+                                <rect key="frame" x="123" y="213" width="129" height="228"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="svN-7f-wk5">
+                                <rect key="frame" x="250" y="213" width="125" height="228"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0gr-9v-5Yw">
+                                <rect key="frame" x="0.0" y="439" width="125" height="228"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9MG-Ji-AuA">
+                                <rect key="frame" x="123" y="439" width="129" height="228"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P7i-Dd-r07">
+                                <rect key="frame" x="250" y="439" width="125" height="228"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select one of the following images to save." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBr-HD-XzB">
+                                <rect key="frame" x="24" y="93" width="327" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Then make it your lockscreen wallpaper." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fS9-T6-AQZ">
+                                <rect key="frame" x="24" y="145" width="327" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJw-c8-tAV">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <textAttributes key="titleTextAttributes">
@@ -27,24 +57,6 @@
                                     <navigationItem title="Broken Screens" id="LvN-qj-w8f"/>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hzq-7K-dkT">
-                                <rect key="frame" x="0.0" y="64" width="125" height="228"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2V-C4-4aB">
-                                <rect key="frame" x="123" y="64" width="129" height="228"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svN-7f-wk5">
-                                <rect key="frame" x="250" y="64" width="125" height="228"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gr-9v-5Yw">
-                                <rect key="frame" x="0.0" y="290" width="125" height="228"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9MG-Ji-AuA">
-                                <rect key="frame" x="123" y="290" width="129" height="228"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7i-Dd-r07">
-                                <rect key="frame" x="250" y="290" width="125" height="228"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -55,4 +67,12 @@
             <point key="canvasLocation" x="244.5" y="337.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="screen1.jpg" width="1080" height="1920"/>
+        <image name="screen2.jpg" width="1080" height="1920"/>
+        <image name="screen3.jpg" width="1080" height="1920"/>
+        <image name="screen4.jpg" width="1080" height="1920"/>
+        <image name="screen5.jpg" width="1080" height="1920"/>
+        <image name="screen6.jpg" width="1080" height="1920"/>
+    </resources>
 </document>
