@@ -118,12 +118,13 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QX7-MV-2Lo">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.1176470588" green="0.89019607840000003" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Broken Screens" id="gO1-Vm-HMY">
+                                    <navigationItem title="Preview" id="gO1-Vm-HMY">
                                         <barButtonItem key="leftBarButtonItem" image="backArrow.png" id="bfp-fX-6kc">
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
@@ -140,10 +141,10 @@
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-fY-1pw">
-                                <rect key="frame" x="-9" y="64" width="394" height="603"/>
+                                <rect key="frame" x="-10" y="64" width="394" height="603"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -156,7 +157,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backArrow.png" width="64" height="64"/>
+        <image name="backArrow.png" width="30" height="30"/>
         <image name="screen1.jpg" width="1080" height="1920"/>
         <image name="screen2.jpg" width="1080" height="1920"/>
         <image name="screen3.jpg" width="1080" height="1920"/>
