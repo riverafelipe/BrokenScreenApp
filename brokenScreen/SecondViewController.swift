@@ -61,9 +61,7 @@ class SecondViewController: UIViewController {
             
             bigImage.image = UIImage(named: "screen6.jpg")
         }
-        else{
-            print("wtf")
-        }
+      
         
     }
     
